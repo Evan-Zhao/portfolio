@@ -15,12 +15,12 @@
 \titleformat{\section}{\sc\Large}{}{0pt}{}[\hrule]
 \titlespacing*{\section}{0pt}{0.7em minus 0.2em}{0.8em minus 0.2em}
 \titleformat{\subsection}{\bfseries}{}{0pt}{}[]
-\titlespacing*{\subsection}{0pt}{1em plus 0.2em minus 0.2em}{0.5em plus 0.2em minus 0.2em}
+\titlespacing*{\subsection}{0pt}{0.5em plus 0.2em minus 0.2em}{0.5em plus 0.2em minus 0.2em}
 \titlespacing{\paragraph}{0pt}{0.5\baselineskip}{1em}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{2pt}
-\geometry{centering,left=2cm,right=2cm,top=1.5cm,bottom=2cm}
+\geometry{centering,left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm}
 
 \setitemize{topsep=0.1em,partopsep=0em,itemsep=0.1em,parsep=0em,leftmargin=1em}
 
@@ -151,20 +151,20 @@ Shanghai Jiaotong --- Univ.~of Michigan Dual Degree Program}
     Haskell, C\#, JavaScript.
 \end{itemize}
 
-\section{Select Publications}
+\section{Publications}
 
 \cvpublist{[PLDI'26]}
 {Neptune: Advanced ML Operator Fusion for Locality and Parallelism on GPUs.}
 {\textbf{Yifan Zhao}, Egan Johnson, Prasanth Chatarasi, Vikram Adve, Sasa Misailovic}
 
-\cvpublist{[Under review \\ASPLOS'27]}
+\cvpublist{[Under review]}
 {Nautilus: Auto-Scheduling Tensor Compiler for Advanced Fusion in Asynchronous
 and Pipelined GPU Kernels.}
 {\textbf{Yifan Zhao}, Yuchen Yang, Matei Budiu, Sasa Misailovic}
 
 \cvpublist{[ISSTA'26]}
 {\mbox{ARQ: A Mixed-Precision Quantization Framework for Accurate and Certifiably Robust
-DNNs.}\vspace{-1em}}
+DNNs.}}
 {Yuchen Yang, \textbf{Yifan Zhao}, Shubham Ugare, Gagandeep Singh, Sasa Misailovic}
 
 \cvpublist{[ASPLOS'24]}
@@ -173,12 +173,16 @@ DNNs.}\vspace{-1em}}
 
 \cvpublist{[PACMI'24]}
 {\mbox{Programming Systems for Improving the Performance of Deep Learning-Intensive
-Applications.}\vspace{-1em}}
+Applications.}}
 {\textbf{Yifan Zhao}, Vikram Adve, Sasa Misailovic}
+
+\cvpublist{[IEEE IoT'24]}
+{Mobiprox: Supporting Dynamic Approximate Computing on Mobiles}
+{Matevz Fabjancic, Octavian Machidon, Hashim Sharif, \textbf{Yifan Zhao}, Sasa Misailovic, Veljko Pejovic \vspace{-1em}}
 
 \cvpublist{[MLSys'23]}
 {\mbox{ApproxCaliper: Exploiting Application-level Error Resiliency for Optimizing Neural
-Networks.}\vspace{-1em}}
+Networks.}}
 {\textbf{Yifan Zhao*}, Hashim Sharif*, Peter Pao-Huang, Vatsin Ninad Shah, Arun
   Narenthiran, Mateus Valverde Gasparino, Nathan Zhao, Abdulrahman Mahmoud, Sarita Adve,
 Girish Chowdhary, Sasa Misailovic, Vikram Adve}
@@ -187,6 +191,11 @@ Girish Chowdhary, Sasa Misailovic, Vikram Adve}
 {Power, Performance, and Image Quality Tradeoffs in Foveated Rendering.}
 {Rahul Singh, Muhammad Huzaifa, Jeffrey Liu, Anjul Patney, Hashim Sharif, \textbf{Yifan
 Zhao}, Sarita Adve}
+
+\cvpublist{[IEEE Micro'22]}
+{HPVM: Hardware-Agnostic Programming for Heterogeneous Parallel Systems}
+{Adel Ejjeh, Aaron Councilman, Akash Kothari, Maria Kotsifakou, Leon Medvinsky, Abdul Rafae Noor,
+Hashim Sharif, \textbf{Yifan Zhao}, Sarita Adve, Sasa Misailovic, Vikram Adve}
 
 \cvpublist{[PPoPP'21]}
 {ApproxTuner: A Compiler and Runtime System for Adaptive Approximations.}
@@ -225,14 +234,16 @@ Collaborated on an extension of the ApproxCaliper project.}
 Collaborated on the ApproxCaliper project.}
 \cvshortlist{12/21 -- 05/22}{UIUC undergraduate student, Yi Zhou \newline{}
 Collaborated on an accuracy-aware tensor compiler project.}
-\cvshortlist{05/21 -- 10/21}{Univ.~of Belgrade undergraduate student, Pavle
-  Divovi\'c \newline{}
-Collaborated on Tensor DSL, PyTorch backend in HPVM, and PyTorch performance portability.}
+% \cvshortlist{05/21 -- 10/21}{Univ.~of Belgrade undergraduate student, Pavle
+%   Divovi\'c \newline{}
+% Collaborated on Tensor DSL, PyTorch backend in HPVM, and PyTorch performance portability.}
 
 \section{Talks}
 
 \textbf{Neptune}: Advanced ML Operator Fusion for Locality and Parallelism on GPUs
 \begin{itemize}
+  \item PLDI'26 conference talk, 06/19/2026, Boulder
+  \item Talk to IBM Compiler Team, 04/20/2026, Virtual
   \item Compiler Seminar talk @ Illinois, 10/02/2025, University of Illinois
 \end{itemize}
 
@@ -245,7 +256,7 @@ Collaborated on Tensor DSL, PyTorch backend in HPVM, and PyTorch performance por
 \textbf{ApproxCaliper}: Exploiting Application-level Error Resiliency for
 Optimizing Neural Networks
 \begin{itemize}
-  \item MLSys conference talk, 06/06/2023, Miami Convention Center
+  \item MLSys'23 conference talk, 06/06/2023, Miami
   \item UIUC Compiler Seminar, 02/07/2022, University of Illinois
   \item Illinois Autonomous Farm Workshop, 07/07/2021, University of Illinois
 \end{itemize}
